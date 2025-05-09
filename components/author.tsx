@@ -22,9 +22,9 @@ export default function Author() {
               <div className="absolute -top-6 -left-6 w-full h-full bg-primary/20 rounded-full"></div>
               <div className="relative z-10 bg-white p-2 rounded-full shadow-lg">
                 <Image
-                  src="/author-hexo.png"
+                  src="https://videos.openai.com/vg-assets/assets%2Ftask_01jsh6xnbkfyjtb7m32167v9tr%2Fimg_0.webp?st=2025-05-09T09%3A17%3A41Z&se=2025-05-15T10%3A17%3A41Z&sks=b&skt=2025-05-09T09%3A17%3A41Z&ske=2025-05-15T10%3A17%3A41Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ebb0df1-a278-4e2e-9c20-f2d373479b3a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=nf%2Fw0IrmjJWyqxQJzlIVjMUsJq6OdZ%2FUDPZAknXbquo%3D&az=oaivgprodscus"
                   alt="HEXO - Author"
-                  width={300}
+                  width={500}
                   height={300}
                   className="w-full h-auto rounded-full"
                 />
@@ -33,17 +33,15 @@ export default function Author() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-serif font-bold text-dark mb-2">HEXO</h3>
+            <h3 className="text-2xl font-serif font-bold text-dark mb-2">HEXO (UNKOWN)</h3>
             <p className="text-primary font-medium mb-6">Historian & Historical Fiction Author</p>
             <p className="text-dark/80 mb-6">
-              HEXO is a renowned historian specializing in cross-cultural encounters in feudal Japan. With a background
-              in East Asian studies and African history, HEXO brings a unique perspective to the extraordinary story of
-              Yasuke.
+            HEXO is a respected historian known for their expertise in cross-cultural encounters during feudal Japan. With an academic foundation in East Asian studies and African history, HEXO offers a distinct and insightful perspective on the extraordinary life of Yasuke.
+
+
             </p>
             <p className="text-dark/80 mb-8">
-              After years of research in archives across Japan, Portugal, and various African countries, HEXO has
-              compiled the most comprehensive account of Yasuke's life to date, separating historical fact from legend
-              while crafting an engaging narrative that honors this remarkable historical figure.
+            Through extensive research conducted across archives in Japan, Portugal, and several African nations, HEXO has produced what is considered the most comprehensive account of Yasuke's life to date. Their work carefully distinguishes historical fact from myth, all while weaving a compelling narrative that pays tribute to this remarkable figure from history.
             </p>
             <div className="flex space-x-4">
               <a

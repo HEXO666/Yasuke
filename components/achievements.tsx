@@ -1,12 +1,12 @@
 import { Award, Users, BookOpen, Star } from "lucide-react"
 
 const achievements = [
-  {
-    icon: <BookOpen className="w-10 h-10 text-primary" />,
-    number: "1",
-    label: "International Bestseller",
-    plus: false,
-  },
+  // {
+  //   icon: <BookOpen className="w-10 h-10 text-primary" />,
+  //   number: "1",
+  //   label: "International Bestseller",
+  //   plus: false,
+  // },
   {
     icon: <Users className="w-10 h-10 text-primary" />,
     number: "75K",
@@ -19,12 +19,12 @@ const achievements = [
     label: "Average Rating",
     plus: false,
   },
-  {
-    icon: <Award className="w-10 h-10 text-primary" />,
-    number: "3",
-    label: "Literary Awards",
-    plus: false,
-  },
+  // {
+  //   icon: <Award className="w-10 h-10 text-primary" />,
+  //   number: "3",
+  //   label: "Literary Awards",
+  //   plus: false,
+  // },
 ]
 
 export default function Achievements() {
@@ -42,7 +42,7 @@ export default function Achievements() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
           {achievements.map((achievement, index) => (
             <div key={index} className="text-center">
               <div className="w-20 h-20 mx-auto bg-primary/10 rounded-full flex items-center justify-center mb-4">

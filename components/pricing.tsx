@@ -1,3 +1,4 @@
+'use client';
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 
@@ -54,15 +55,18 @@ export default function Pricing() {
                 ))}
               </CardContent>
               <CardFooter className="pb-10">
-                <Button
-                  className={
-                    option.highlighted
-                      ? "w-full bg-primary hover:bg-primary/90 text-white text-lg py-3"
-                      : "w-full bg-secondary/50 border border-white/20 text-white hover:bg-primary hover:text-white text-lg py-3"
-                  }
-                >
-                  BUY NOW
-                </Button>
+              <Button
+  onClick={() => window.open("https://gumroad.com/checkout?_gl=1*1xe9ccn*_ga*MTEyMDk0MzA3OS4xNzQ2NzE0NjA2*_ga_6LJN6D94N6*czE3NDY3ODU3NDkkbzIkZzEkdDE3NDY3ODU4MjkkajAkbDAkaDA", "_blank")}
+  className={
+    option.highlighted
+      ? "w-full bg-primary hover:bg-primary/90 text-white text-lg py-3"
+      : "w-full bg-secondary/50 border border-white/20 text-white hover:bg-primary hover:text-white text-lg py-3"
+  }
+>
+  BUY NOW
+</Button>
+
+
               </CardFooter>
             </Card>
           ))}
